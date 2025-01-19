@@ -3,70 +3,92 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>AI Personal Website</title>
-  <link rel="stylesheet" href="styles.css">
-  <link rel="icon" href="ai-icon.png">
+  <title>AI and the Future</title>
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet">
+  <style>
+    /* General Reset */
+    body, html {
+      margin: 0;
+      padding: 0;
+      width: 100%;
+      height: 100%;
+      overflow: hidden;
+      font-family: Arial, sans-serif;
+      color: white;
+    }
+
+    /* Video Background Styling */
+    .video-background {
+      position: fixed;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+      z-index: -1;
+    }
+
+    /* Content Overlay */
+    .content {
+      position: relative;
+      z-index: 1;
+      text-align: center;
+      padding: 20px;
+    }
+
+    h1 {
+      font-size: 3rem;
+      margin-top: 20vh;
+    }
+
+    p {
+      font-size: 1.2rem;
+      line-height: 1.5;
+      max-width: 800px;
+      margin: 20px auto;
+    }
+
+    /* Social Media Links */
+    .social-links {
+      margin: 20px auto;
+      display: flex;
+      justify-content: center;
+      gap: 15px;
+    }
+
+    .social-links a {
+      text-decoration: none;
+      color: white;
+      font-size: 2rem;
+      transition: transform 0.3s;
+    }
+
+    .social-links a:hover {
+      transform: scale(1.2);
+    }
+  </style>
 </head>
 <body>
-  <header>
-    <nav>
-      <h1>AI Enthusiast</h1>
-      <ul>
-        <li><a href="#about">About</a></li>
-        <li><a href="#projects">Projects</a></li>
-        <li><a href="#contact">Contact</a></li>
-      </ul>
-    </nav>
-  </header>
+  <!-- Video Background -->
+  <video class="video-background" autoplay muted loop>
+    <source src="c:\Users\Bakti\Downloads\172156-846731269_large.mp4" type="video/mp4">
+    Your browser does not support the video tag.
+  </video>
 
-  <section id="hero">
-    <div class="hero-content">
-      <h2>Welcome to My AI World</h2>
-      <p>I'm passionate about Artificial Intelligence, Data Science, and creating meaningful projects.</p>
-      <a href="#contact" class="btn">Get in Touch</a>
-    </div>
-  </section>
+  <!-- Content Overlay -->
+  <div class="content">
+    <h1>WELCOME TO BAKTI IRAWAN'S WEBSITE AI</h1>
+    <p>"Di era digital ini, kecerdasan buatan bukan hanya alat, tetapi juga mitra dalam pendidikan. Dengan memanfaatkan AI, kita dapat membuka pintu pengetahuan yang lebih luas dan menciptakan pengalaman belajar yang lebih personal dan efektif." "Ketika kita mengintegrasikan kecerdasan buatan dalam pendidikan, kita tidak hanya mempersiapkan siswa untuk masa depan, tetapi juga mengajarkan mereka untuk menjadi pengendali teknologi, bukan sekadar pengikut. Dalam dunia yang terus berubah, kemampuan untuk beradaptasi dan berpikir kritis menjadi kunci untuk meraih kesuksesan."
 
-  <section id="about">
-    <h2>About Me</h2>
-    <p>Hi! I'm [Your Name], an AI enthusiast who loves exploring machine learning, natural language processing, and robotics. I use this space to share my projects and ideas with the world.</p>
-  </section>
+        "AI adalah cermin dari potensi manusia. Dengan memanfaatkan teknologi ini secara bijak, kita dapat mengembangkan kreativitas dan inovasi, menjadikan pendidikan sebagai sarana untuk membentuk generasi yang tidak hanya cerdas secara akademis, tetapi juga memiliki empati dan kesadaran sosial."</p>
 
-  <section id="projects">
-    <h2>Projects</h2>
-    <div class="project-card">
-      <h3>Project 1: AI Chatbot</h3>
-      <p>A chatbot that uses NLP to assist users in everyday tasks.</p>
-    </div>
-    <div class="project-card">
-      <h3>Project 2: Predictive Analytics</h3>
-      <p>An analytics dashboard that predicts trends based on historical data.</p>
-    </div>
-  </section>
-
-  <section id="contact">
-    <h2>Contact</h2>
-    <p>Feel free to connect with me or leave a message below!</p>
+    <!-- Social Media Links -->
     <div class="social-links">
-      <a href="https://instagram.com/yourusername" baktiirawan__="_blank" class="social-btn instagram">Instagram</a>
-      <a href="https://twitter.com/yourusername" target="_blank" class="social-btn twitter">Twitter</a>
-      <a href="https://www.tiktok.com/@yourusername" target="_blank" class="social-btn tiktok">TikTok</a>
-      <a href="https://facebook.com/yourusername" target="_blank" class="social-btn facebook">Facebook</a>
+      <a href="https://instagram.com/baktiirawan__" target="_blank"><i class="fab fa-instagram"></i></a>
+      <a href="https://facebook.com/Baktiirawan420" target="_blank"><i class="fab fa-facebook"></i></a>
+      <a href="https://twitter.com/baktiirawan420_" target="_blank"><i class="fab fa-twitter"></i></a>
+      <a href="https://youtube.com/@baktiirawan-mq6xm" target="_blank"><i class="fab fa-youtube"></i></a>
     </div>
-    <form class="contact-form">
-      <input type="text" placeholder="Your Name" required>
-      <input type="email" placeholder="Your Email" required>
-      <textarea placeholder="Your Message" rows="5" required></textarea>
-      <button type="submit" class="btn">Send Message</button>
-    </form>
-  </section>
-
-  <footer>
-    <p>© 2025 [Your Name]. All Rights Reserved.</p>
-  </footer>
-
-  <script src="scripts.js"></script>
+  </div>
 </body>
 </html>
-   
-
